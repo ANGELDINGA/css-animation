@@ -1,0 +1,18 @@
+img {
+    width: 225px;
+    height:225px;
+}
+div :hover {
+    margin: 10%;
+    width: 225px;
+    height: 225px;
+    animation-name: animatedXLogo;
+    background-color: red;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;    
+  } 
+  @keyframes animatedXLogo {
+    0% {background-color: blue;}
+  100% {transform: rotate(360deg);}
+  }
+ 
